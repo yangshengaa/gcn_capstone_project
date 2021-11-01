@@ -1,0 +1,11 @@
+# caches
+__pycache__/
+.ipynb_notebooks/
+
+# but not 
+!.gitignore
+
+# keep data folder but do not update any datasets
+!data
+data/*
+!data/.gitkeep
